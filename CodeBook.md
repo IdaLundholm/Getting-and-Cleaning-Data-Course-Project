@@ -1,8 +1,8 @@
 # Variable names
-1. activity : factors with levels walking, walkingupstairs, walkingdownstairs, sitting, standing and laying
-2. subject : numeric vector 1-30
+variables 3-68 are extracted from the original accelerometer data. Variable 1 describes the activity that was performed during the measurements and variable 2 is a numeric value unique for every subject.
 
-variables 3-68 (in order), extracted from original accelerometer data
+1.  activity : factors with levels walking, walkingupstairs, walkingdownstairs, sitting, standing and laying
+2.  subject : numeric vector 1-30
 3.  tBodyAcc-mean()-X
 4.  tBodyAcc-mean()-Y
 5.  tBodyAcc-mean()-Z
