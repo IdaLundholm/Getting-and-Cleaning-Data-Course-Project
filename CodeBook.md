@@ -1,5 +1,5 @@
 # Variable names
-variables 3-68 are extracted from the original accelerometer data. Variable 1 describes the activity that was performed during the measurements and variable 2 is a numeric value unique for every subject.
+Variables 3-68 are extracted from the original accelerometer data (only values of mean and standard deviation). Variable 1 describes the activity that was performed during the measurements and variable 2 is a numeric value unique for every subject.
 
 1.  activity : factors with levels walking, walkingupstairs, walkingdownstairs, sitting, standing and laying
 2.  subject : numeric vector 1-30
