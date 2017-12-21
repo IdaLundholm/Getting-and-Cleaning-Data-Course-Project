@@ -42,3 +42,5 @@ merged_data <- cbind(y_set, subject, selected_x_set)
 melted_data <- melt(merged_data, id=c('subject', 'activity'))
 cast_data <- dcast(melted_data, subject + activity ~ variable, mean)
 
+#Write dataset to text file
+write.table(cast_data, 'tidy_dataset.txt', row.name = FALSE)
